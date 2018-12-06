@@ -26,7 +26,7 @@ class PlayerInput extends React.Component {
   }
   render() {
     const { username } = this.state;
-    const { label } = this.probs;
+    const { label } = this.props;
 
     return (
       <form className="column" onSubmit={this.handleSubmit}>
